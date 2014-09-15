@@ -1,15 +1,17 @@
 html
 {
-  margin:0 auto;
+  margin:0px 0px;
   height:100%;
   width:100%;
+  padding:0 0;
 }
 body
 {
   height:100%;
   width:100%;
-  margin-left:-8px;
-  margin-top:-8px;
+  margin:auto;
+  background-color:gray;
+  margin-left:-4px;
 }
 /*==============================rslides=======================================================================================*/
 .rslides {
@@ -17,6 +19,7 @@ body
   list-style: none;
   overflow: hidden;
   width: 100%;
+  height:100%;
   padding: 0;
   margin: 0;
   }
@@ -44,11 +47,6 @@ body
   border: 0;
   }
   /*==============================rslides end=================================================================================*/
-.rslides
-{
-  width:100%;
-  height:100%;
-}
 .rslides ul
 {
   width:100%;
@@ -76,6 +74,13 @@ body
 #body3
 {
   background:url('images/congruent_outline.png') repeat center center fixed;
+  width:100%;
+  height:100%;
+  margin-left:-32px;
+}
+#body4
+{
+  background:url('images/green_cup.png') repeat center center fixed;
   width:100%;
   height:100%;
   margin-left:-32px;
