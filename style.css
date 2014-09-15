@@ -1,0 +1,82 @@
+html
+{
+  margin:0 auto;
+  height:100%;
+  width:100%;
+}
+body
+{
+  height:100%;
+  width:100%;
+  margin-left:-8px;
+  margin-top:-8px;
+}
+/*==============================rslides=======================================================================================*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  /*==============================rslides end=================================================================================*/
+.rslides
+{
+  width:100%;
+  height:100%;
+}
+.rslides ul
+{
+  width:100%;
+  height:100%;
+}
+.rslides ul ul
+{
+  width:100%;
+  height:100%;
+}
+#body1
+{
+  background:url('images/small_steps.png') repeat center center fixed;
+  width:100%;
+  height:100%;
+  margin-left:-32px;
+}
+#body2
+{
+  background:url('images/binding_light.png') repeat center center fixed;
+  width:100%;
+  height:100%;
+  margin-left:-32px;
+}
+#body3
+{
+  background:url('images/congruent_outline.png') repeat center center fixed;
+  width:100%;
+  height:100%;
+  margin-left:-32px;
+}
