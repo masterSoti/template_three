@@ -20,6 +20,10 @@ body
   padding-bottom: 20px;
   margin-top:-249px;
 }
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
 .nav
 {
 	width:100%;
