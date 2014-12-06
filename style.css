@@ -11,7 +11,7 @@ body
   width:100%;
   margin:auto;
   background:url('images/green_cup.png') repeat center center fixed;
-  background-color:gray;
+  background-color:rgb(50, 50, 50);
 }
 #container
 {
